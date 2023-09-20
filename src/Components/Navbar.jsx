@@ -1,6 +1,7 @@
 import React from "react";
 import {RiWallet3Line} from 'react-icons/ri'
 import {TfiSearch} from 'react-icons/tfi'
+import logo from '../assets/logo.png'
 const Navbar = () => {
   return (
     <div className="relative m-3 flex justify-between border-b border-gray-500 p-3">
@@ -8,7 +9,7 @@ const Navbar = () => {
         <div>
           <img
             className="flex w-68 h-8"
-            src="https://blur.io/logo.png"
+            src={logo}
             alt="/"
           />
         </div>

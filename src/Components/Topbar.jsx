@@ -5,6 +5,7 @@ import { BiLogoDiscordAlt } from "react-icons/bi";
 import { TbWorldWww } from "react-icons/tb";
 import { RiArrowDownSLine } from "react-icons/ri";
 import {FaEthereum} from 'react-icons/fa'
+import Topbarimg from '../assets/topbarimg.webp'
 
 const Topbar = () => {
   return (
@@ -13,7 +14,7 @@ const Topbar = () => {
         <div>
           <img
             className="flex w-16 h-16 opacity-100 object-cover rounded-full"
-            src="https://images.blur.io/_blur-prod/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/8321-69a4c46a6e8e5b07?w=128"
+            src={Topbarimg}
             alt="/"
           />
         </div>
