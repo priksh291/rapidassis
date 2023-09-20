@@ -4,8 +4,8 @@ import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
 import Topbar from './Components/Topbar'
 import Body from './Components/Body'
-import Leftbar from './Components/leftbar'
-import Rightbar from './Components/rightbar'
+import Leftbar from './Components/Leftbar'
+import Rightbar from './Components/Rightbar'
 
 function App() {
   
